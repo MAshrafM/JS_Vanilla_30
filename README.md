@@ -16,3 +16,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/01_DrumKit/show.png)
 - 02 Clock
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/02_Clock/show.png)
+- 03 CSS Variables
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/03_CSSVar/show.png)
