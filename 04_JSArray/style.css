@@ -1,0 +1,10 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  overflow-x: hidden;
+}
