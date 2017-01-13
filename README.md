@@ -18,5 +18,7 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/02_Clock/show.png)
 - 03 CSS Variables
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/03_CSSVar/show.png)
--04 JS Array
+- 04 JS Array
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/04_JSArray/show.png)
+- 05 Panel Gallery
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/05_PanelGallery/show.png)
