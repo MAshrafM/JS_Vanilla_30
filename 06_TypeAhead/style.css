@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  font-family:'helvetica neue';
+}
+body {
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main-container {
+ 
+}
