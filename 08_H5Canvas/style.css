@@ -4,8 +4,22 @@ body {
   width: 100%;
   font-family: 'helvetica neue', sans-serif;
   overflow-x: hidden;
+  background: rgba(0,0, 175, .5);
 }
 
 .main-container{
+  text-align: center;
+  font-weight: bold;
+  color: rgba(255,255,255, .7);
+}
+#drawArea{
+  width: 960px;
+  margin: 10px auto;
+  background: white;
+  border-radius: 15px;
+}
 
+#drawCanvas{
+  margin: 15px auto;
+  border: 1px dashed black;
 }
