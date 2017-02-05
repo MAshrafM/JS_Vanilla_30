@@ -26,3 +26,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/06_TypeAhead/show.png)
 - 07 JS Array II
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/07_JSArrayII/show.png)
+- 08 HTML5 Canvas
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/08_H5Canvas/show.png)
