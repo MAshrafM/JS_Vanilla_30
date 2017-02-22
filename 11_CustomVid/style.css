@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family:'helvetica neue';
+  background:#ffc600;
+}
+body {
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main-container {
+ text-align: center;
+ font-weight:bold;
+ width: 960px;
+ margin: 0 auto;
+}
