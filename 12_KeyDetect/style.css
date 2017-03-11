@@ -36,7 +36,8 @@ h1{
   display: inline-block;
 }
 
-.textpad{
+#textpad{
   padding: 20px;
   font-size: 25px;
+  overflow-wrap: break-word;
 }
