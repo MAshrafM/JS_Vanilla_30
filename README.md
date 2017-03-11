@@ -34,3 +34,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/10_ToDoList/show.png)
 - 11 CustomVid
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/11_CustomVid/show.png)
+- 12 KeyDetect
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/12_KeyDetect/show.png)
