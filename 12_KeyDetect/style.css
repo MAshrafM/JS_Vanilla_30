@@ -4,4 +4,39 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+html, body, .main-container {
+    min-height: 100% !important;
+}
+body{
+  background: linear-gradient(#93cede, #75bdd1, #49a5bf);
+  background-position: cover;
+}
+
+.main-container{
+  min-width: 960px;
+}
+
+.content{
+  min-height: 560px;
+  background: #fff;
+  width: 960px;
+  margin: 30px auto;
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  box-shadow: 12px 0 15px -4px rgba(33, 33, 33, 0.8), -12px 0 15px -4px rgba(33, 33, 33, 0.8);
+}
+
+h1{
+  border-bottom: 1px solid #eee;
+  padding: 0px 35px 20px 35px;
+  display: inline-block;
+}
+
+.textpad{
+  padding: 20px;
+  font-size: 25px;
 }
