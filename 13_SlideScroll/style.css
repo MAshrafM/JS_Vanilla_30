@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  font-family:'helvetica neue';
+  background:#ffc600;
+}
+body {
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main-container {
+ text-align: center;
+ color: #1e1e1e;
+ font-weight:bold;
+ width: 960px;
+ margin: 0 auto;
+}
