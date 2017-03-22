@@ -9,19 +9,21 @@
 </head>
 <body>
   
-  <header class="container group">
+  <header class="primary-header container group">
     <h1 class="logo">
-      <a href="index.html">Styles <br /> Conference</a>
+      <a href="#">Styles <br /> Conference</a>
     </h1>
     <h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
 
     
     <nav class="nav primary-nav">
-      <a href="index.html">Home</a>
-      <a href="speakers.html">Speakers</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="venue.html">Venue</a>
-      <a href="register.html">Register</a>
+      <ul>
+        <li><a href="#">Home</a></li><!--
+        --><li><a href="#speakers">Speakers</a></li><!--
+        --><li><a href="#schedule">Schedule</a></li><!--
+        --><li><a href="#venue">Venue</a></li><!--
+        --><li><a href="#register">Register</a></li>
+      </ul>
     </nav>
   </header>
   
@@ -29,49 +31,289 @@
     <h2>Dedicated to the Craft of Building Websites</h2>
     <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
     
-    <a class="btn btn-alt" href="register.html">Register Now</a>
+    <a class="btn btn-alt" href="#register">Register Now</a>
   </section>
   
-  <section class="grid">
-    <!-- Speakers -->
-    <section class="teaser col-1-3">
-      <a href="speakers.html">
-        <h5>Speakers</h5>
-        <h3>World-Class Speakers</h3>
-      </a>
-        <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
-    </section><!--
-    Schedule
- --><section class="col-1-3">
-      <a href="schedule.html">
-        <h5>Schedule</h5>
-        <h3>Three Inspiring Days</h3>
-      </a>
-      <p>Enjoy three inspiring and action packed days of talks, gatherings and all around good times.</p>
-    </section><!--
-    Venue
- --><section class="col-1-3">
-      <a href="venue.html">
-        <h5>Venue</h5>
-        <h3>The Chicage Theater</h3>
-      </a>
-      <p>Within the heart of down town Chicage, the Chicage theater will provide a beautiful conference venue.</p>
-    </section>
+  <section class="row">
+    <div class="grid">
+      <!-- Speakers -->
+      <section class="teaser col-1-3">
+        <a href="speakers.html">
+          <h5>Speakers</h5>
+          <img src="assets/home/speakers.jpg" alt="Professional Speaker">
+          <h3>World-Class Speakers</h3>
+        </a>
+          <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+      </section><!--
+      Schedule
+   --><section class="teaser col-1-3">
+        <a href="schedule.html">
+          <h5>Schedule</h5>
+          <img src="assets/home/schedule.jpg" alt="Schedule">
+          <h3>Three Inspiring Days</h3>
+        </a>
+        <p>Enjoy three inspiring and action packed days of talks, gatherings and all around good times.</p>
+      </section><!--
+      Venue
+   --><section class="teaser col-1-3">
+        <a href="venue.html">
+          <h5>Venue</h5>
+          <img src="assets/home/venue.jpg" alt="Venue">
+          <h3>The Chicage Theater</h3>
+        </a>
+        <p>Within the heart of down town Chicage, the Chicage theater will provide a beautiful conference venue.</p>
+      </section>
+    </div>
   </section>
+  
+  <!-- Speakers -->
+  <div id="speakers">
+    <section class="row-alt">
+      <div class="lead container">
+        <h1>Speakers</h1>
+        <p>We’re happy to welcome over twenty speakers to present on the industry’s latest technologies. Prepare for an inspiration extravaganza.</p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="grid">
+        <section class="speaker" id="chris-mills">
 
+          <div class="col-2-3">
+            <h2>Chris Mills</h2>
+            <h5>Heavy Metal Coding</h5>
+            <p>In this unconventional talk, Chris Mills will encourage you to pick up some drum sticks in addition to your laptop, and beat out a rhythm of learning – both of code and drum beats! You’ll learn basic JavaScript and CSS, plus beginner’s heavy metal drum patterns. The two are a marriage made in heaven, as nothing is a better antidote to code frustration than beating seven shades of **** out of a drum kit</p>
+            <h5>About Shay</h5>
+            <p>Chris Mills is a Senior Tech Writer at Mozilla, where he writes docs and demos about open web apps, Firefox OS and related subjects. He loves tinkering around with HTML, CSS, JavaScript and other web technologies, and gives occasional tech talks at conferences and universities.</p>
+          </div><!--
+
+          --><aside class="col-1-3">
+            <div class="speaker-info">
+            <img src="assets/speakers/chris-mills.jpg" alt="Chris Mills">
+              <ul>
+                <li><a href="https://twitter.com/shayhowe">@chrismills</a></li>
+                <li><a href="http://learn.shayhowe.com/">developer.mozilla.org</a></li>
+              </ul>
+            </div>
+          </aside>
+
+        </section>
+        
+        <section id="shay-howe">
+        
+          <div class="col-2-3">
+            <h2>Shay Howe</h2>
+            <h5>Less Is More: How Constraints Cultivate Growth</h5>
+            <p>By setting constraints, we force ourselves to be more productive. They help us make decisions, creating focus around the problem we are trying to solve. They improve our consistency, which provides a better experience for our users. And they help us grow, a valuable asset in times of innovation.</p>
+            <h5>About Shay</h5>
+            <p>As a designer and front-end developer, Shay Howe has a passion for solving problems while building creative and intuitive products. Shay specializes in product design and interface development, specialties which he regularly writes and speaks about.</p>
+          </div><!--
+        
+          --><aside class="col-1-3">
+            <div class="speaker-info">
+            <img src="assets/speakers/shay-howe.jpg" alt="Shay Howe">
+              <ul>
+                <li><a href="https://twitter.com/shayhowe">@shayhowe</a></li>
+                <li><a href="http://learn.shayhowe.com/">learn.shayhowe.com</a></li>
+              </ul>
+            </div>
+          </aside>
+        
+        </section>
+        
+      </div>
+    </section>
+  </div>
+  
+  <!-- Schedule -->
+  <div id="schedule">
+    <section class="row-alt">
+      <div class="lead container">
+        <h1>Schedule</h1>
+        <p>The Conference is held at The Chicago Theater, a beautiful historical land mark. The conference hotel, Hotel Chicage, is a short walk down state street.</p>
+      </div>
+    </section>
+    
+    <section class="row">
+      <div class="container">
+        <table>
+          <thead>
+            <tr>
+              <th scope="row">
+                Workshops
+              </th>
+              <td class="schedule-offset" colspan="2">
+                August 24th
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <time datetime="08:30:00">8:30 AM</time>
+              </th>
+              <td class="schedule-offset" colspan="2">
+                Registration
+              </td>
+            </tr>
+            
+            <tr>
+              <th scope="row">
+                <time datetime="09:00:00">9:00 AM</time>
+              </th>
+              <td>
+                <a href="speakers.html#adam-connor">
+                  <h4>Adam Connor</h4>
+                  Lights! Camera! Interaction! Design Inspiration from Filmmakers
+                </a>
+              </td>
+              <td>
+                <a href="speakers.html#jennifer-jones">
+                  <h4>Jennifer Jones</h4>
+                  What Designers Can Learn from Parenting
+                </a>
+              </td>
+            </tr>
+            
+            <tr>
+              <th scope="row">
+                <time datetime="12:30:00">12:30 PM</time>
+              </th>
+              <td class="schedule-offset" colspan="2">
+                Lunch
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <time datetime="14:00">2:00 PM</time>
+              </th>
+              <td>
+                <a href="speakers.html#tessa-harmon">
+                  <h4>Tessa Harmon</h4>
+                  Crafty Coding: Generating Knitting Patterns
+                </a>
+              </td>
+              <td>
+                <a href="speakers.html#russ-unger">
+                  <h4>Russ Unger</h4>
+                  From Muppets to Mastery: Core UX Principles from Mr. Jim Henson
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+  </div>
+  
+  <!-- Venue -->
+  <div id="venue">
+    <section class="row-alt">
+      <div class="lead container">
+        <h1>Venue</h1>
+        <p>The Conference is held at The Chicago Theater, a beautiful historical land mark. The conference hotel, Hotel Chicage, is a short walk down state street.</p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="grid">
+        <section class="venue-theatre">
+          <div class="col-1-3">
+            <h2>Chicago Theatre</h2>
+            <p>175 N State St <br> Chicago, IL 60601</p>
+            <p><a href="http://www.thechicagotheatre.com/">thechicagotheatre.com</a> <br> (312) 462-6300</p>
+          </div><!--
+
+        --><iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2ca55810a493%3A0x4700ddf60fcbfad6!2schicago+theatre!5e0!3m2!1sen!2sus!4v1388701393606"></iframe>
+        </section>
+
+        <section class="venue-hotel">
+          <div class="col-1-3">
+            <h2>Hotel Chicago</h2>
+            <p>333 N Dearborn St <br> Chicago, IL 60654</p>
+            <p><a href="http://www.thehotelchicago.com/">thehotelchicago.com</a> <br> (312) 245-0333</p>
+          </div><!--
+
+        --><iframe class="venue-map col-2-3" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x880e2ca55810a493%3A0x4700ddf60fcbfad6!2schicago+theatre!5e0!3m2!1sen!2sus!4v1388701393606"></iframe>
+        </section>
+      </div>
+    </section>
+  </div>
+  
+  <!-- Register -->
+  <div id="register">
+    <section class="row-alt">
+      <div class="lead container">
+        <h1>Register</h1>
+        <p>Every year we aim to have an unbelievable time. and this year we'd love it for you to join us. Conference passes only costs $99, one of the best values you will find.</p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="grid">
+        <section class="col-2-3">
+          <h2>Purchase a Conference Pass</h2>
+          <h5>$99 per Pass</h5>
+
+          <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+
+          <h4>Why Attend?</h4>
+
+          <ul class="why-attend">
+          <li>Over twenty world-class speakers</li>
+            <li>One full day of workshops and two full days of presentations</li>
+            <li>Hosted at The Chicago Theatre, a historical landmark</li>
+            <li>August in Chicago is simply amazing</li>
+          </ul>
+        </section><!--
+
+        --><form class="col-1-3" action="#" method="post">
+          <fieldset class="register-group">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Full name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Email address" required>
+            </label>
+            <label>
+              Number of Passes
+              <select name="quantity" required>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+
+            <label>
+              Comments
+              <textarea name="comments"></textarea>
+            </label>
+          </fieldset>
+
+          <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
   <footer class="primary-footer container group">
     <small>&copy; Styles Conference</small>
     
     <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="speakers.html">Speakers</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="venue.html">Venue</a>
-      <a href="register.html">Register</a>
+      <ul>
+        <li><a href="#">Home</a></li><!--
+        --><li><a href="#speakers">Speakers</a></li><!--
+        --><li><a href="#schedule">Schedule</a></li><!--
+        --><li><a href="#venue">Venue</a></li><!--
+        --><li><a href="#register">Register</a></li>
+      </ul>
     </nav>
+
   </footer>
     
-
-  <script src="app.js"></script>
 </body>
 </html>
