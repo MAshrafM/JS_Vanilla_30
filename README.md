@@ -38,3 +38,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/12_KeyDetect/show.png)
 - 13 SlideScroll <br />
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/13_SlideScroll/show.png)
+- 14 JavaScript References VS Copying [LandingPage]
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/14_LandingPage/show.png)
