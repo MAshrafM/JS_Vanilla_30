@@ -21,5 +21,6 @@
     secondsLeft = secondsLeft % 60;
     
     document.querySelector('.calc-time').innerHTML = hours +'hr '+ mins + 'm ' + secondsLeft + 's'
+    document.querySelector('.total').style.backgroundColor = "rgb(94, 222, 93)"
   }
 })();

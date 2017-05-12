@@ -64,5 +64,42 @@ html {
 body {
   font-family: sans-serif;
   min-height: 100vh;
+  background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
 }
 
+.container{
+  width: 70%;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1px;
+  color: #333;
+}
+
+table{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+}
+tr{
+  width: 100%;
+}
+td{
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+.btn{
+  background: rgba(134,174,204,1);
+  padding: 15px;
+  border: 1px solid rgba(212,228,239,1);
+  margin-top: 5px;
+  margin-left: 27%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgba(212,228,239,1);
+  transition: 0.5s;
+}
