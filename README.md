@@ -42,4 +42,6 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 - 16 ShadowMove
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/16_ShadowMove/show.png)
 - 17 SortArt  
-![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/17_SortArt/show.png)
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/17_SortArt/show.png)  
+- 18 CalcTime  
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/18_CalcTime/show.png)  
