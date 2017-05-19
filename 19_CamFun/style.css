@@ -82,8 +82,9 @@ body {
 }
 
 .photo {
-  width:100%;
-  float:left;
+  width:97%;
+  margin: 0 1.5%;
+  border: 1px solid rgba(255,125,100,1);
 }
 
 .player {
@@ -91,6 +92,8 @@ body {
   top:20px;
   right: 20px;
   width:200px;
+  border: 5px solid #777;
+  border-radius: 4px;
 }
 
 /*
@@ -103,7 +106,7 @@ body {
 .strip img {
   width:100px;
   overflow-x: scroll;
-  padding:0.8rem 0.8rem 2.5rem 0.8rem;
+  padding:5px;
   box-shadow:0 0 3px rgba(0,0,0,0.2);
   background:white;
 }
