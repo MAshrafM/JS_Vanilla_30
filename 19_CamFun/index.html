@@ -6,8 +6,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div class="photobooth">
+    <div class="controls">
+      <button onClick="takePhoto()">Take Photo</button>
+    </div>
 
+    <canvas class="photo"></canvas>
+    <video class="player"></video>
+    <div class="strip"></div>
+  </div>
+
+  <audio class="snap" src="http://wesbos.com/demos/photobooth/snap.mp3" hidden></audio>
   <script src="app.js"></script>
 </body>
 </html>
