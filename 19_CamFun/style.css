@@ -67,3 +67,66 @@ body {
   background: radial-gradient(rgba(255,198,0,1) 0%, rgba(255,125,100,1) 100%)
 }
 
+.photobooth {
+  background:rgba(255, 255, 255, .5);
+  max-width:80%;
+  margin: 2rem auto;
+  border-radius:2px;
+}
+
+/*clearfix*/
+.photobooth:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.photo {
+  width:100%;
+  float:left;
+}
+
+.player {
+  position: absolute;
+  top:20px;
+  right: 20px;
+  width:200px;
+}
+
+/*
+  Strip!
+*/
+
+.strip {
+  padding:2rem;
+}
+.strip img {
+  width:100px;
+  overflow-x: scroll;
+  padding:0.8rem 0.8rem 2.5rem 0.8rem;
+  box-shadow:0 0 3px rgba(0,0,0,0.2);
+  background:white;
+}
+
+.strip a:nth-child(5n+1) img { rotate: 10deg; }
+.strip a:nth-child(5n+2) img { rotate: -2deg; }
+.strip a:nth-child(5n+3) img { rotate: 8deg; }
+.strip a:nth-child(5n+4) img { rotate: -11deg; }
+.strip a:nth-child(5n+5) img { rotate: 12deg; }
+
+.controls{
+  text-align: center;
+}
+button{
+  border: none;
+  outline:none;
+  background: rgba(255,125,100,1);
+  padding: 10px;
+  color: #333;
+  margin: 15px auto;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
