@@ -45,3 +45,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/17_SortArt/show.png)  
 - 18 CalcTime  
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/18_CalcTime/show.png)  
+- 19 CamFun  
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/19_CamFun/show.png)  
