@@ -53,4 +53,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/21_GeoLoc/show.png)  
 - 22 LinkHighLighter  
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/22_LinkHighLighter/show.png)  
-
+- 23 SpeechSynth  
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/23_SpeechSynth/show.png)  
