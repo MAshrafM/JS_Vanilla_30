@@ -67,6 +67,75 @@ body {
   padding: 0;
   min-height: 100vh;
   align-items: center;
+  background: radial-gradient(rgb(175, 255, 185) 0%,rgb(0, 163, 212) 50%, rgb(0, 135, 142) 100%);
+  text-align: center;
+  padding: 20px;
 }
 
+h1{
+  margin: 15px auto;
+  font-size: 2em;
+  font-family: fantasy;
+  color: #ccc;
+  border-bottom: 5px solid #ccc;
+  padding-bottom: 15px;
+}
+main {
+    height: 60vh;
+    width: 80vw;
+    margin: 20vh auto;
+}
+.Set {
+    height: 40vh;
+    width: 40vh;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.subset {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(203, 255, 193);
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+.go {
+    height: 40vh;
+    width: 40vh;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 50%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.goo {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(203, 255, 193);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25%;
+    right: 12%;
+}
+
+button {
+    margin-top: 10vh;
+    width: 200px;
+    height: 20vh;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: cursive;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+  background-color: #3eab21;
+}
 
