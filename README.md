@@ -57,3 +57,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/23_SpeechSynth/show.png)  
 - 24 StickyNav  
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/24_StickyNav/show.png)  
+- 25 CaptureProp  
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/25_CaptureProp/show.png)  
