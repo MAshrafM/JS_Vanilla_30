@@ -63,3 +63,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/26_FollowNav/show.png)  
 - 27 ClickDrag
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/27_ClickDrag/show.png)  
+- 28 VidSpeed
+![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/28_VidSpeed/show.png)  
