@@ -56,6 +56,7 @@ html {
   font-family: "Inconsolata", "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
   font-size: 20px;
   font-weight: 200;
+  background: #ffc600;
 }
 
 *, *:before, *:after {
@@ -72,7 +73,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 10rem;
+  font-size: 5rem;
   line-height:1;
   margin-bottom: 0;
 }

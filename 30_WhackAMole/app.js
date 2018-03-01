@@ -4,6 +4,8 @@
   const holes = document.querySelectorAll('.hole');
   const scoreBoard = document.querySelector('.score');
   const moles = document.querySelectorAll('.mole');
+  const start = document.getElementById('startGame');
+
   let lastHole;
   let timeUp = false;
   let score = 0;
@@ -24,10 +26,14 @@
   }
 
   function peep() {
-    const time = randomTime(200, 1000);
+    const time = randomTime(2000, 10000);
     const hole = randomHole(holes);
     hole.classList.add('up');
-    setTimeout(() => {
+    setTimeout(() => {scoreBoard.textContent = 0;
+    timeUp = false;
+    score = 0;
+    peep();
+    setTimeout(() => timeUp = true, 10000)
       hole.classList.remove('up');
       if (!timeUp) peep();
     }, time);
@@ -38,7 +44,7 @@
     timeUp = false;
     score = 0;
     peep();
-    setTimeout(() => timeUp = true, 10000)
+    setTimeout(() => timeUp = true, 10000);
   }
 
   function bonk(e) {
@@ -48,5 +54,6 @@
     scoreBoard.textContent = score;
   }
 
+  start.addEventListener('click', startGame);
   moles.forEach(mole => mole.addEventListener('click', bonk));
 }());
