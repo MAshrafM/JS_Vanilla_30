@@ -69,3 +69,5 @@ This an attemp at the challenge. I am gonna refactor the JS code if needed, add 
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/29_CountDown/show.png)  
 - 30 WackAMole  
 ![View](https://github.com/MAshrafM/JS_Vanilla_30/blob/master/30_WhackAMole/show.png)  
+
+------- 30/30
